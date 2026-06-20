@@ -52,10 +52,6 @@ ChavesLinux
 
 O template usa esse par de chaves no parâmetro `KeyName`, associa a chave à instância EC2 e abre a porta 22 no Security Group apenas para o IP informado em `MyIP`.
 
-Mais detalhes estão em:
-
-[acesso-ssh.md](acesso-ssh.md)
-
 ## 5. Revisão e Criação
 
 1. Revise as informações da stack.

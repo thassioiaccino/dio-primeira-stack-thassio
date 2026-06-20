@@ -44,7 +44,6 @@ Durante a prática, foram estudados os seguintes pontos:
 ├── templates
 │   └── webserver-stack.yaml
 ├── docs
-│   ├── acesso-ssh.md
 │   ├── anotacoes.md
 │   ├── passo-a-passo.md
 │   └── insights.md
@@ -89,10 +88,6 @@ dio-primeira-stack-thassio
 Observação sobre acesso SSH:
 
 O template atualizado usa o parâmetro `KeyName` para associar um par de chaves EC2 à instância Linux e libera a porta 22 no Security Group apenas para o IP definido em `MyIP`. O par de chaves deve existir antes da criação ou atualização da stack. Neste laboratório, foi usado o par existente `ChavesLinux`.
-
-Guia de apoio:
-
-[docs/acesso-ssh.md](docs/acesso-ssh.md)
 
 O template principal está disponível em:
 
